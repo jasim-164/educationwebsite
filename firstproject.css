@@ -1,0 +1,150 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    /* -webkit-box-sizing: border-box; */
+            box-sizing: border-box;
+    text-transform: capitalize;
+    /* -webkit-transition: all .2s linear; */
+    transition: all .2s linear;
+    font-family: 'Exo 2', sans-serif;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    overflow-x: hidden;
+  } 
+   #header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+   
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem 4rem;
+    background: #fff;
+    -webkit-box-shadow: 0 .1rem .3rem #999;
+            box-shadow: 0 .1rem .3rem #999;
+    z-index: 1100;
+  }
+  
+  #header .logo img {
+    height: 9.5rem;
+  } 
+  #header nav ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    list-style: none;
+    margin-bottom: 0;
+  }
+  
+  #header nav ul li {
+    margin-right: 2rem;
+  }
+  
+  #header nav ul li a {
+    color: #333;
+    font-size: 2rem;
+  }
+  
+  #header nav ul li a:hover {
+    text-decoration: none;
+    color: #00B894;
+  }
+  
+#header .fa-bars {
+    font-size: 3rem;
+    color: #333;
+    cursor: pointer;
+     display: none; 
+    /* display: block; */
+  }
+  /* home section starts */
+  #home {
+    min-height: 100vh;
+    width: 100vw;
+    background: linear-gradient(76.34deg, #FFFFFF 52.45%, rgba(196, 196, 196, 0) 52.49%), url(Curzon_Hall_Panorama.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-animation: background 10s alternate infinite;
+            animation: background 10s alternate infinite;
+  }
+  
+  #home .content {
+    position: relative;
+  }
+  
+  #home .content h1 {
+    font-size: 6rem;
+    color: #00B894;
+  }
+  
+  #home .content h2 {
+    font-size: 5rem;
+    color: #00B894;
+  }
+  
+  #home .content h3 {
+    font-size: 3rem;
+    color: #333;
+    margin: 1rem 0;
+  }
+  
+  #home .content button {
+    outline: none;
+    border: none;
+    border-radius: 5rem;
+    background: #00B894;
+    color: #fff;
+    cursor: pointer;
+    height: 4rem;
+    width: 18rem;
+    font-size: 2rem;
+    text-transform: capitalize;
+  }
+  
+  #home .content button:hover {
+    background: #333;
+  }
+  
+  #home .content .icons {
+    position: absolute;
+    left: 2rem;
+    bottom: -65%;
+    width: 100%;
+  }
+  
+  #home .content .icons a {
+    height: 4rem;
+    width: 4rem;
+    line-height: 4rem;
+    text-align: center;
+    background: #dd08088f;
+    border-radius: 5rem;
+    font-size: 1.7rem;
+    color: #fff;
+    margin-right: 1.5rem;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  #home .content .icons a:hover {
+    text-decoration: none;
+    background: #333;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+
+  
+ 
